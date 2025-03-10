@@ -17,15 +17,14 @@ body {
     height: 80px;
     margin: auto;
     margin-top:1rem ;
-  
+    margin-right: 25%;
 }
 header {
     background-color: #9b0487;
-    width: 110%;
-    display: flex; 
-    flex-direction: column;
+    width: 111%;
     border-radius: 10px;
     border: 2px solid black;
+   
 }
 nav {
     background-color: #e380ff;
@@ -40,7 +39,7 @@ nav {
 .section1{
     background-color: #9b0487;
     width: 24%;
-    height: 500px;
+    height: 510px;
     border-radius: 10px;
     border: 2px solid black;
     float: left;
@@ -75,8 +74,10 @@ aside{
 .section2{
     background-color: #9b0487;
     width: 75%;
-    height: 500px;
+    height: 515px;
     float: right;
+    border-radius: 10px;
+    border: 2px solid black;
 }
 
 .header2{
@@ -119,7 +120,7 @@ article{
     border: 2px solid black;
     font-size: 20px;
     margin: 15px;
-    width: 500px;
+    width: 55%;
     margin-top: 10px;
     margin-left: 20px;
     background-color: #eb1cd0;
@@ -127,11 +128,15 @@ article{
 .aside2{
     border: 2px solid black;
     font-size: 20px;
-    text-align: center;
     margin: 15px;
-    width: 30%;
+    width: 25%;
     margin-right: 30px;
     background-color: #eb1cd0;
+    position: absolute;
+    top: 260px;
+    margin-left: 541px;
+    text-align: center;
+
 }
 
 .p{
@@ -141,6 +146,11 @@ article{
     background-color: #eb1cd0;
     height: 30px;
 }
+.article2{
+    margin-top: 45px;
+}
+
+
 .container4{
     background-color: #e380ff;
     padding: 5px;
@@ -189,7 +199,7 @@ article{
     width: 90%;
     height: 40px;
     margin-left: 65px;
-    margin-top:5px;
+    margin-top:15px;
     border-radius: 10px;
 }
 /*comentario*/
